@@ -95,7 +95,7 @@ Mi objetivo es combinar una buena base técnica con capacidad para entender nece
 
 * **Portfolio:** Próximamente
 * **LinkedIn:** www.linkedin.com/in/nelson-sivisstum-4777a32b4
-* **GitHub:** [@nelsonvis3](https://github.com/nelsonvis3)
+* **Telefono:** 11-70625896 
 
 ---
 

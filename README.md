@@ -1,232 +1,102 @@
-Formosa Empleos
+# Nelson Sivisstum
+
+### Full Stack Developer
+
+> Construyo y mejoro aplicaciones web para resolver problemas y cubrir necesidades reales.
+
+---
+
+## Sobre mí
+
+Soy desarrollador Full Stack enfocado en construir aplicaciones web modernas, funcionales y mantenibles.
+
+Actualmente estoy profundizando mis conocimientos en **React, Next.js, TypeScript, Python y Django**, mientras desarrollo proyectos propios para aplicar y consolidar lo aprendido.
+
+Me interesa especialmente transformar necesidades reales en soluciones útiles, claras y bien estructuradas.
+
+---
+
+## Tech Stack
+
+### Frontend
+
+HTML · CSS · JavaScript · React · Next.js · TypeScript · Tailwind CSS
+
+### Backend
+
+Python · Django · Django REST Framework
+
+### Database & Services
+
+PostgreSQL · SQLite · Supabase
+
+### Tools & Workflow
+
+Git · GitHub · Linux · VS Code · Vite
+
+---
+
+## Featured Projects
+
+### Formosa Empleos
 
 Plataforma web de empleo para Formosa Capital que conecta empresas locales con personas en búsqueda de trabajo.
 
-El proyecto permite a las empresas publicar oportunidades laborales y gestionar postulaciones, mientras que los postulantes pueden explorar ofertas, filtrarlas y aplicar directamente desde la plataforma.
+Permite explorar y filtrar ofertas, realizar postulaciones, gestionar candidatos y administrar cuentas empresariales mediante diferentes roles de usuario.
 
-La plataforma incorpora diferentes roles de usuario, validación administrativa de empresas, formularios de postulación personalizados y notificaciones por correo.
+El proyecto se encuentra actualmente desplegado en producción.
 
-🌐 Ver aplicación en producción →
-📦 Ver repositorio →
+**Tecnologías:** HTML · CSS · JavaScript · Supabase · PostgreSQL · Resend · Vercel
 
-Tabla de contenidos
-Características
-Stack tecnológico
-Arquitectura
-Roadmap técnico
-Instalación y configuración local
-Variables de entorno
-Estructura del proyecto
-Roles de usuario
-Capturas
-Licencia
-Características
-Para postulantes
-Exploración pública de ofertas sin necesidad de registrarse.
-Búsqueda y filtrado de oportunidades laborales.
-Postulación directa desde la plataforma.
-Formularios personalizados según cada oferta.
-Seguimiento del estado de las postulaciones.
-Para empresas
-Registro con aprobación administrativa.
-Publicación y gestión de ofertas laborales.
-Visualización y gestión de postulantes.
-Estados dentro del proceso de selección.
-Formularios de postulación personalizados.
-Perfil empresarial con logo, sitio web, redes sociales y dirección.
-Administración
-Validación y aprobación de cuentas empresariales.
-Control de las empresas habilitadas para publicar ofertas.
-Experiencia de usuario
-Interfaz responsive.
-Vista dividida para explorar ofertas y consultar sus detalles sin recargar la página.
-Actualización dinámica del contenido.
-Notificaciones transaccionales por correo electrónico.
-Stack tecnológico
-Capa	Tecnología
-Frontend	HTML · CSS · JavaScript
-Backend / Auth / DB	Supabase · PostgreSQL · Row Level Security
-Almacenamiento	Supabase Storage
-Envío de correo	Resend mediante SMTP
-Hosting	Vercel
-Tipografía / UI	Archivo · gris oscuro · blanco · acento verde
-Arquitectura
+[Ver aplicación →](https://formosa-empleos.vercel.app/)
 
-La versión actual del proyecto utiliza una arquitectura basada en servicios gestionados de Supabase.
+[Ver repositorio →](https://github.com/nelsonvis3/formosa-empleos)
 
-El frontend consume directamente los servicios de Supabase para autenticación, acceso a PostgreSQL y almacenamiento de archivos. Las políticas de Row Level Security (RLS) controlan el acceso a los datos según el rol y los permisos de cada usuario.
+---
 
-┌─────────────────────────────┐
-│          Frontend           │
-│       HTML / CSS / JS       │
-│          (Vercel)           │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│          Supabase           │
-│                             │
-│ Auth · PostgreSQL · RLS     │
-│ Storage                     │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│           Resend            │
-│       Email / SMTP          │
-└─────────────────────────────┘
+### Ragnar Suplementos
 
-Esta arquitectura permitió desarrollar y validar rápidamente el producto completo, incluyendo el modelo de datos, autenticación, permisos, flujos de usuario y experiencia de uso, sin incorporar inicialmente una infraestructura de backend propia.
+E-commerce full stack desarrollado para un emprendimiento local de suplementos deportivos.
 
-Seguridad y permisos
+La aplicación permite explorar productos y combos, gestionar un carrito, calcular envíos en Formosa y generar pedidos mediante diferentes medios de pago.
 
-El acceso a los datos se controla mediante políticas de Row Level Security en PostgreSQL.
+El proyecto utiliza Next.js en el frontend y Django REST Framework como backend, con PostgreSQL como base de datos para producción.
 
-Esto permite aplicar reglas diferentes según el tipo de usuario:
+**Tecnologías:** Next.js · React · TypeScript · Tailwind CSS · Django · Django REST Framework · PostgreSQL
 
-Los postulantes pueden acceder a sus propias postulaciones.
-Las empresas pueden administrar únicamente sus ofertas y postulantes.
-Las cuentas empresariales requieren aprobación administrativa.
-Las operaciones administrativas están restringidas al rol correspondiente.
-Roadmap técnico
+[Ver repositorio →](https://github.com/nelsonvis3/ragnarsuplementosfsa)
 
-La versión actual fue diseñada como una primera versión funcional del producto. Como evolución de la arquitectura, está planificada una migración hacia un backend propio utilizando FastAPI + PostgreSQL.
+---
 
-El objetivo de esta migración es reducir la dependencia de servicios gestionados para la lógica de negocio y obtener mayor control sobre:
+## En desarrollo
 
-Autenticación y autorización.
-Reglas de negocio.
-Procesamiento de datos.
-Validaciones.
-Integraciones externas.
-Escalabilidad de la aplicación.
-Próximas mejoras
+Actualmente estoy profundizando en:
 
-Migrar backend de Supabase a FastAPI + PostgreSQL.
+* Desarrollo Full Stack con React, Next.js, TypeScript, Python y Django.
+* Diseño y construcción de APIs REST.
+* Arquitectura y organización de aplicaciones web.
+* Bases de datos y modelado de información.
+* Autenticación, autorización y seguridad.
+* Testing y buenas prácticas de desarrollo.
+* Git y GitHub como herramientas de trabajo profesional.
+* Despliegue y mantenimiento de aplicaciones.
 
-Adquirir y configurar un dominio propio.
+---
 
-Verificar el dominio en Resend para habilitar el envío de correos a usuarios reales.
+## Objetivo profesional
 
-Incorporar métricas para empresas.
+Seguir desarrollándome como **Full Stack Developer**, construyendo aplicaciones cada vez más completas y trabajando sobre proyectos que resuelvan problemas reales.
 
-Mostrar estadísticas de visualizaciones y postulaciones.
+Mi objetivo es combinar una buena base técnica con capacidad para entender necesidades, diseñar soluciones y llevarlas desde la idea hasta una aplicación funcional.
 
-Incorporar notificaciones en tiempo real para nuevas postulaciones.
+---
 
-Instalación y configuración local
-Requisitos
-Node.js.
-npm.
-Una cuenta/proyecto de Supabase.
-Credenciales de Resend si se desea probar el envío de correos.
-Clonar el repositorio
-git clone https://github.com/nelsonvis3/formosa-empleos.git
-cd formosa-empleos
-Instalar dependencias
-npm install
-Configurar variables de entorno
+## Contacto
 
-Copiar el archivo de ejemplo:
+* **Portfolio:** Próximamente
+* **LinkedIn:** www.linkedin.com/in/nelson-sivisstum-4777a32b4
+* **GitHub:** [@nelsonvis3](https://github.com/nelsonvis3)
 
-cp .env.example .env
+---
 
-Completar las variables correspondientes con las credenciales del proyecto de Supabase y la configuración de correo.
-
-Ejecutar en desarrollo
-npm run dev
-
-La aplicación estará disponible normalmente en:
-
-http://localhost:3000
-Variables de entorno
-Variable	Descripción
-SUPABASE_URL	URL del proyecto de Supabase.
-SUPABASE_ANON_KEY	Clave pública del proyecto de Supabase.
-SMTP_HOST	Servidor SMTP utilizado para el envío de correos.
-SMTP_USER	Usuario del servicio SMTP.
-SMTP_PASS	Credencial del servicio SMTP.
-SITE_URL	URL base de la aplicación utilizada en enlaces y confirmaciones de correo.
-
-Importante: nunca subir credenciales reales, claves privadas o archivos .env al repositorio.
-
-Estructura del proyecto
-formosa-empleos/
-├── index.html              # Listado público de ofertas
-├── empresa/                # Registro y panel de empresas
-├── postulante/             # Registro y panel de postulantes
-├── admin/                  # Panel administrativo
-├── assets/                 # Estilos, iconos y recursos estáticos
-└── lib/                    # Cliente de Supabase y utilidades compartidas
-Roles de usuario
-Postulante
-
-Puede:
-
-Explorar ofertas laborales.
-Buscar y filtrar oportunidades.
-Postularse a ofertas.
-Completar formularios personalizados.
-Consultar el estado de sus postulaciones.
-Empresa
-
-Puede:
-
-Crear una cuenta empresarial.
-Completar su perfil institucional.
-Publicar ofertas una vez aprobada su cuenta.
-Crear formularios de postulación personalizados.
-Consultar postulantes.
-Gestionar el estado de los candidatos.
-Administrador
-
-Puede:
-
-Revisar nuevas cuentas empresariales.
-Aprobar o rechazar empresas.
-Controlar qué empresas pueden operar dentro de la plataforma.
-Flujo principal
-Postulante
-Explorar ofertas
-       ↓
-Seleccionar una oportunidad
-       ↓
-Consultar detalles
-       ↓
-Postularse
-       ↓
-Completar formulario
-       ↓
-Seguimiento de postulación
-Empresa
-Crear cuenta
-      ↓
-Aprobación administrativa
-      ↓
-Completar perfil
-      ↓
-Publicar oferta
-      ↓
-Recibir postulaciones
-      ↓
-Gestionar candidatos
-
-Este flujo busca mantener separadas las responsabilidades de cada tipo de usuario y evitar que una empresa pueda publicar ofertas antes de completar el proceso de validación.
-
-Capturas
-
-Las capturas se incorporarán progresivamente a medida que se actualice la presentación visual del proyecto.
-
-Demo
-
-🌐 Ver Formosa Empleos en producción →
-
-Licencia
-
-Proyecto de desarrollo personal y portfolio.
-
-Todos los derechos reservados.
-
-Desarrollado por Nelson Sivisstum
-
-GitHub · LinkedIn
+> Construir. Aprender. Mejorar.

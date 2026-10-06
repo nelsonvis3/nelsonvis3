@@ -2,7 +2,7 @@
 
 ### Full Stack Developer
 
-> Construyo y mejoro aplicaciones web para resolver problemas y cubrir necesidades reales.
+> Construyo y mantengo aplicaciones web para resolver problemas e ir mejorando poco a poco.
 
 ---
 

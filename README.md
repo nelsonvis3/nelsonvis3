@@ -93,7 +93,7 @@ Mi objetivo es combinar una buena base técnica con capacidad para entender nece
 
 ## Contacto
 
-* **Portfolio:** Próximamente
+* **Portfolio:** nelsonvis-portfolio.vercel.app
 * **LinkedIn:** www.linkedin.com/in/nelson-sivisstum-4777a32b4
 * **Telefono:** 11-70625896 
 

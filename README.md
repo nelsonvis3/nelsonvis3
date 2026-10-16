@@ -80,5 +80,4 @@ Busco sumarme a un equipo donde pueda aportar con React, Next.js y Django, apren
 
 - [Portfolio →](https://nelsonvis-portfolio.vercel.app/)
 - [LinkedIn →](https://www.linkedin.com/in/nelson-sivisstum-4777a32b4)
-- [GitHub →](https://github.com/nelsonvis3)
-- **Teléfono:** 11-70625896
+- [Telefono →] 11-70625896

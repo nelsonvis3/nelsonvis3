@@ -2,11 +2,11 @@
 
 **Desarrollador full stack · React, Next.js y Django** · Formosa, Argentina
 
-Hago aplicaciones web completas: la interfaz, la API y el modelo de datos. Me interesan los casos que aparecen cuando una aplicación se empieza a usar, como un pedido que se envía dos veces, dos cobros sobre el mismo saldo o un pago que llega tarde. Busco mi primer equipo de desarrollo.
+Hago aplicaciones web completas: la interfaz, la API y el modelo de datos. Empiezo por entender qué necesita el cliente, quién va a usar la aplicación y qué tiene que transmitir. Después armo la base con pruebas para los casos difíciles, como un pedido que se envía dos veces, y encima una interfaz clara que lo comunique. Busco mi primer equipo de desarrollo.
 
 [Portfolio](https://nelsonvis-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/nelson-sivisstum-4777a32b4) · [Email](mailto:nelsonsivisstum3@gmail.com) · [CV](https://nelsonvis-portfolio.vercel.app/cv.pdf)
 
-> **In English:** self-taught full stack developer from Formosa, Argentina, working with React, Next.js, TypeScript and Django, and looking for my first development team. See my [portfolio in English](https://nelsonvis-portfolio.vercel.app/en/) or my [CV](https://nelsonvis-portfolio.vercel.app/cv-en.pdf).
+> **In English:** self-taught full stack developer from Formosa, Argentina, working with React, Next.js, TypeScript and Django. I start by understanding what the client needs and build it end to end. Looking for my first development team. See my [portfolio in English](https://nelsonvis-portfolio.vercel.app/en/) or my [CV](https://nelsonvis-portfolio.vercel.app/cv-en.pdf).
 
 ## Proyectos
 
@@ -30,7 +30,7 @@ Planificador de viajes para camioneros de Estados Unidos: arma la ruta, agrega l
 
 ### Otros
 
-[Formosa Empleos](https://github.com/nelsonvis3/formosa-empleos), un portal de empleo local con Supabase ([demo](https://formosa-empleos.vercel.app)), y [el código de mi portfolio](https://github.com/nelsonvis3/myportfolio), con una escena en three.js.
+[Formosa Empleos](https://github.com/nelsonvis3/formosa-empleos), un portal de empleo local con Supabase ([demo](https://formosa-empleos.vercel.app)), y [el código de mi portfolio](https://github.com/nelsonvis3/myportfolio): un generador estático propio en TypeScript, en español e inglés, con casos de estudio y clips de cada proyecto.
 
 ## Stack
 

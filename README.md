@@ -4,9 +4,9 @@
 
 Hago aplicaciones web completas: la interfaz, la API y el modelo de datos. Empiezo por entender qué necesita el cliente, quién va a usar la aplicación y qué tiene que transmitir. Después armo la base con pruebas para los casos difíciles, como un pedido que se envía dos veces, y encima una interfaz clara que lo comunique. Busco mi primer equipo de desarrollo.
 
-[Portfolio](https://nelsonvis-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/nelson-sivisstum-4777a32b4) · [Email](mailto:nelsonsivisstum3@gmail.com) · [CV](https://nelsonvis-portfolio.vercel.app/cv.pdf)
+[Portfolio](https://nelsonsivisstum.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/nelson-sivisstum-4777a32b4) · [Email](mailto:nelsonsivisstum3@gmail.com) · [CV](https://nelsonsivisstum.vercel.app/cv.pdf)
 
-> **In English:** self-taught full stack developer from Formosa, Argentina, working with React, Next.js, TypeScript and Django. I start by understanding what the client needs and build it end to end. Looking for my first development team. See my [portfolio in English](https://nelsonvis-portfolio.vercel.app/en/) or my [CV](https://nelsonvis-portfolio.vercel.app/cv-en.pdf).
+> **In English:** self-taught full stack developer from Formosa, Argentina, working with React, Next.js, TypeScript and Django. I start by understanding what the client needs and build it end to end. Looking for my first development team. See my [portfolio in English](https://nelsonsivisstn.vercel.app/en/) or my [CV](https://nelsonsivisstum.vercel.app/cv-en.pdf).
 
 ## Proyectos
 

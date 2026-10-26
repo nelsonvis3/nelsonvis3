@@ -22,11 +22,11 @@ Tienda online para un comercio de Formosa. Combos que comparten stock con los pr
 
 <sub>Django REST · Next.js · Zustand</sub> · [Caso de estudio](https://nelsonsivisstum.vercel.app/proyectos/ragnar-suplementos/) · [Repo](https://github.com/nelsonvis3/ragnarsuplementosfsa)
 
-### [RoadLedger](https://github.com/nelsonvis3/ELD-trip-planner)
+### [SPACE Tasks](https://github.com/nelsonvis3/space-tasks)
 
-Planificador de viajes para camioneros de Estados Unidos: arma la ruta, agrega las paradas que exigen las reglas de horas de servicio y genera una planilla por día.
+Aplicación de productividad con tareas, calendario, estadísticas, un lector de PDF y música, para escritorio y navegador. La IA, el OCR y la traducción corren en el dispositivo, y las cuentas y el historial de versiones se guardan en SQLite.
 
-<sub>Django REST · React · MapLibre</sub> · [Demo](https://eld-trip-planner-5as7.onrender.com/) · [Caso de estudio](https://nelsonsivisstum.vercel.app/proyectos/roadledger/) · [Repo](https://github.com/nelsonvis3/ELD-trip-planner)
+<sub>React · TypeScript · Node.js · SQLite · Electron</sub> · [Demo](https://nelsonvis3.github.io/space-tasks/) · [Caso de estudio](https://nelsonsivisstum.vercel.app/proyectos/space-tasks/) · [Repo](https://github.com/nelsonvis3/space-tasks)
 
 ### Otros
 
@@ -34,7 +34,7 @@ Planificador de viajes para camioneros de Estados Unidos: arma la ruta, agrega l
 
 ## Stack
 
-- **Frontend:** React, Next.js, TypeScript, Tailwind CSS, Zustand
-- **Backend:** Python, Django, Django REST Framework
-- **Datos:** PostgreSQL, SQLite, Supabase
-- **Pruebas y herramientas:** Django TestCase, Playwright, ESLint, Git, Docker, GitHub Actions, Linux
+- **Frontend:** JavaScript, TypeScript, React, Next.js, Tailwind CSS, Zustand
+- **Backend:** Python, Django, Django REST Framework, Node.js
+- **Datos:** PostgreSQL, MySQL, SQLite
+- **Pruebas y herramientas:** Django TestCase, Playwright, ESLint, Git, Docker, Nginx, GitHub Actions, Linux
